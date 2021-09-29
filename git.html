@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "styles.css" rel = "stylesheet">
+    <title></title>
+</head>
+<body>
+
+    <nav class="navigation container">
+        <div class="nav-brand">Shlok's Portfolio</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="blog.html">Blog</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-heading">Understanding the basics of <span class="heading-inverted">Git and Github</span></h1>
+        <img class="hero-img" src = "images/pexels-negative-space-92904.jpg" />
+    </header>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>What is Git?</h1>
+            <p>Git is basically a form of version control used by software engineers for tracking changes made to the source code</p>
+            <p>Git allows you to have multiple versions of a source code which can act as backups in case any corruption happens</p>
+            <p>Git also allows developers to collaborate and work together to fix and add new features to the source code simultaneosly without interfering with each others code</p>
+            <p>Now that we have a basic understanding of what Git does, lets look at the workflow</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Repository</h1>
+            <p>A Repository is nothing but a folder that contains all your source code</p>
+            <h5>How is this different from your already created local file folder?</h5>
+            <p>Think of your Repository as the source of all truth. Whenever you write additonal lines of code and hit save on your IDE, you are only making changes to your local file and not your Repository</p>
+            <p>To make sure that your changes reflect in your Repository as well you need to make a special save request called <strong>Commit</strong> which we will be covering later in this blog</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>What is Commit?</h1>
+            <p>It's a special type of save request that we make so that the latest changes in our local folder also reflect in our Repository</p>
+            <p>Just like the name suggests we only commit changes in our code when we are sure we want it to be a part of our source code</p>
+            <p>This will help in making sure that only the best and final saved changes actually reflect in your Repository</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Creating a Remote Repository</h1>
+            <p>One of the purposes of Git is to allow teams of developers to simultaneosly work on the same code. Having your Repository only be present in your local machine defeats that very purpose</p>
+            <p>Creeating a Remote Repository which will be present on the internet helps with this issue</p>
+            <p>The idea is to keep your remote Repository in sync with your local Repository so that all the commits on the local Repository also reflect on the remote Repo</p>
+            <p>One of the many Remote Repositories is Github</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Push Request</h1>
+            <p>Just like the name suggests this request will allow you to push the latest changes(commits) made to your local Repository to your Remote Repository</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Branching</h1>
+            <p>Git allows you to create multiple branches from the main source code which allows devs to freely make the necessary changes and commits to the code without directly affecting the main source code branch</p>
+            <p>For eg. If you were to add a new function which checked if a number is prime or not, you could create a new branch for yourself and then add that function to the code. Then your Manager can review your codes functionality and decide whether it should be added to the main source code or not</p>
+            <p>This will prevent the main source code from getting corrupted due to any human-error</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Pull Request</h1>
+            <p>In order for others in your organisation to see what changes you have made in your branch, you need to do a pull request</p>
+            <p>This step will decide whether your manager will approve of your changes and allow them to be added to the main soruce code branch</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Merge Request</h1>
+            <p>Once your Manager(Owner of Source Code) approves of the changes made in your branch, you can run a merge request which would then add your changes to the original source code</p>
+        </div>
+    </section>
+
+    <hr />
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>The End</h1>
+            <p>I hope you were able to understand the basic operations of Git and Github after going through this blog.</p>
+            <p>I tried my best to keep this is as simple as possible</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/shlok30">
+                    github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://linkedin.com/in/shlok-mehra-a11620160">
+                    linkedin
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
